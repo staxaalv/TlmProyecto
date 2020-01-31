@@ -36,7 +36,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
-        rotation: Math.PI *-(0),
+        rotation: Math.PI *-(AQUI DEBERÍA IR EL VALOR DE PYTHON/180),
         scales: {
             yAxes: [{
                 ticks: {
@@ -47,34 +47,3 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
-<!--<script type="text/javascript">
-$(document).ready(function(){
-	var chartDiv = $("#barChart");
-var myChart = new Chart(chartDiv, {
-    type: 'radar',
-    data: {
-        labels: [],
-        datasets: [
-        {
-            //data: [21,39, 10, 14,16],
-            data:[360,1],
-            backgroundColor: [
-               "#FF6384",
-            "#4BC0C0",
-            "#FFCE56",
-            "#E7E9ED",
-            "#36A2EB"
-            ]
-        }]
-    },
-    options: {
-        title: {
-            display: false,
-            text: 'Giro Actual'
-        },
-		responsive: true,
-maintainAspectRatio: false,
-    }
-});
-});
-</script>-->
